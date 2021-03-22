@@ -1,0 +1,252 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+.navbar-brand img{
+    max-width: 200px;
+}
+.nav-link{
+    color: #0f394c !important;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Dosis', sans-serif;
+}
+.nav-item a:hover{
+    color: #49b5e7 !important;
+}
+.summer-sky{
+    color: #49b5e7;
+}
+.h1{
+    color: #0f394c;
+    font-size: 45px;
+    font-weight: 600;
+}
+.h2{
+    color: #0f394c;
+    font-size: 28px;
+    font-weight: 600;
+}
+.paracolor{
+    color: #808080;
+}
+.para-banner{
+    color: #1c698c;
+    font-size: 20px;
+    font-weight: 500;
+}
+.para-banner2{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+.section-padding{
+    padding: 60px 0;
+}
+.bg-color{
+    background: #f9f9f9;
+}
+.btn-bg-color{
+    background-color: #49b5e7;
+    font-size: 16px;
+    border-radius: 3px;
+    font-weight: 600;
+    padding: 8px 28px;
+    border: 0;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    border: 2px solid #d0ecf9;
+    border-radius: 50px;
+}
+.icon-box .icon {
+    color: #49b5e7;
+    font-size: 36px;
+  }
+  
+  .icon i:hover {
+    color: white;
+  }
+  .icon:hover {
+    background: #49b5e7;
+  }
+  .icon-title {
+    margin: 0;
+    font-size: 18px;
+  }  
+  .h3-font:hover{
+    color: #49b5e7;
+  }
+  .h3-font{
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  .what-bg-image{
+    background: url("../images/counts-bg.jpg") center center no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+  }
+  .title{
+    position: relative;
+    color: #0f394c;
+    text-align: center!important;
+  }
+  
+  .what-bg-image::before {
+    content: "";
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  .counter span{
+    font-size: 44px;
+    font-weight: 700;
+    display: block;
+    color: #49b5e7;
+    font-family: 'Dosis', sans-serif;
+  }
+  .counter p{
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-size: 15px;
+    color: #444444;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .h3-font-size{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .border-img{
+    border-top: 1px solid #eee;
+    border-left: 1px solid #eee;
+  }
+  .client-logo{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+    background: #fff;
+    height: 120px;
+  }
+  .Services{
+    background-color: #f4fbfe;
+  }
+  .icon-box-1{
+    position: relative;
+    background: #fff;
+    box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .icon-box-icon{
+    position: absolute;
+    left: -22px;
+    top: calc(50% - 30px);
+  }
+  .icon-box-icon i{
+    font-size: 60px;
+    line-height: 1;
+    color: #ff689b;
+  }
+  .service-text{
+   color: #111;
+   font-weight: 700;
+   font-size: 18px;
+  }
+  .service-text:hover{
+    color: #49b5e7;
+  }
+  .service-description{
+    font-size: 14px;
+    line-height: 24px;
+    min-height: 150px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .all-filter a{
+    color: #49b5e7;
+    text-decoration: none;
+  }
+  .portfolio-content{
+    position: relative;
+    height: 876px;
+  }
+  .portfolio-box{
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .portfolio-text{
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.6);
+    max-height: 262px;
+    overflow: hidden;
+  }
+  .portfolio-text:before{
+    content: "";
+    background: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    left: 30px;
+    right: 30px;
+    top: 30px;
+    bottom: 30px;
+    z-index: 2;
+    opacity: 0
+  }
+  .portfolio-info{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+  }
+  .portfolio-info:before{
+    display: block;
+    content: "";
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    border-top: 3px solid #bdc6ca;
+    border-left: 3px solid #bdc6ca;
+    z-index: 9994;
+  }
+  .portfolio-info h4{
+    font-size: 20px;
+    color: #0f394c;
+    font-weight: 600;
+  }
+  .porfolio-link{
+    z-index: 4;
+  }
+  .porfolio-link a{
+    color: #49b5e7;
+    margin: 0 2px;
+    font-size: 28px;
+    display: inline-block;
+  }
+  .portfolio-link i{
+    color: #49b5e7;
+  }
