@@ -184,13 +184,15 @@ body {
   .all-filter a{
     color: #49b5e7;
     text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
   }
   .portfolio-content{
     position: relative;
     height: 876px;
   }
   .portfolio-box{
-    position: absolute;
+    position: relative;
     left: 0;
     top: 0;
   }
@@ -214,6 +216,7 @@ body {
     opacity: 0
   }
   .portfolio-info{
+    opacity: 0;
     position: absolute;
     top: 0;
     left: 0;
@@ -249,4 +252,22 @@ body {
   }
   .portfolio-link i{
     color: #49b5e7;
+  }
+  .portfolio-info:after{
+    display: block;
+    content: "";
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    bottom: 35px;
+    right: 35px;
+    border-bottom: 3px solid #bdc6ca;
+    border-right: 3px solid #bdc6ca;
+    z-index: 9994;
+  }
+  .portfolio-info:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+    opacity: 1;
+    transition: all 2s ease;
+    transform: scale(1.1);
   }
