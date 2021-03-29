@@ -73,7 +73,9 @@ body {
     color: #49b5e7;
     font-size: 36px;
   }
-  
+  .icon-box-p{
+    font-family: 'Open Sans', sans-serif !important;
+  }
   .icon i:hover {
     color: white;
   }
@@ -189,7 +191,6 @@ body {
   }
   .portfolio-content{
     position: relative;
-    height: 876px;
   }
   .portfolio-box{
     position: relative;
@@ -407,4 +408,9 @@ textarea{
 }
 .copy-right{
   font-family: 'Open Sans', sans-serif;
+}
+@media (min-width:992px){
+  .portfolio-content{
+    height: 876px;
+  }
 }
